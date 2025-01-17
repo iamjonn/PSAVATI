@@ -47,23 +47,6 @@ input {
   box-sizing: border-box;
 }
 
-/*
-button {
-  width: 100%;
-  background-color: #e9f035;
-  color: #333;
-  padding:10px;
-  border:  ;
-  border-radius: 4px;
-  font-size: 1rem;
-  cursor: pointer;
-}/*
-
-button:hover {
-  background-color: #d4e031;
-}*/
-
-
 button{
   width: 100%;
   text-decoration: none;

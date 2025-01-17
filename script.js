@@ -38,8 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (isValid) {
         loginContainer.style.display = "none";
         successContainer.style.display = "flex";
-       // mensagem.textContent = "Login realizado com sucesso!";
-        //mensagem.style.color = "green";
+
       } else {
         mensagem.textContent = "Corrija os erros acima.";
         mensagem.style.color = "red";
