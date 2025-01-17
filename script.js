@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
       const passwordError = document.getElementById("senhaErrada");
       const mensagem = document.getElementById("mensagem");
 
+      const loginContainer = document.getElementById("login");
+      const successContainer = document.getElementById("successContainer");
+
 
       let isValid = true;
 
@@ -33,8 +36,10 @@ document.addEventListener("DOMContentLoaded", function () {
       
       //exebir mensagens de sucesso ou error
       if (isValid) {
-        mensagem.textContent = "Login realizado com sucesso!";
-        mensagem.style.color = "green";
+        loginContainer.style.display = "none";
+        successContainer.style.display = "flex";
+       // mensagem.textContent = "Login realizado com sucesso!";
+        //mensagem.style.color = "green";
       } else {
         mensagem.textContent = "Corrija os erros acima.";
         mensagem.style.color = "red";
