@@ -5,8 +5,23 @@ justify-content: center;
 align-items: center;
 height: 100vh;
 margin: 0;
-background-color:rgb(255, 255, 255);
+background: url('https://avati.com.br/corporacao/public/img/back.jpg');
+background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
+img{
+  width: 60px; 
+  height: 40px; 
+  margin-left: 0px; 
+}
+
+h1{
+  text-align: center;
+  font-family: "Bold";
+}
+
 
 .login{
 background: #1C1C1C;
@@ -31,6 +46,7 @@ input {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
 /*
 button {
   width: 100%;
