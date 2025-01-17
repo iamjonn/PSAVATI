@@ -63,6 +63,19 @@ button:hover {
   background-color: #d4e031;
 }*/
 
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+}
+
+.success {
+  color: green;
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+}
+
+
 button{
   width: 100%;
   text-decoration: none;
