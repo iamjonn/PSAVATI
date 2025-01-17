@@ -18,9 +18,18 @@ document.addEventListener("DOMContentLoaded", function () {
       // Validar email
       if (!email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
         emailError.textContent = "E-mail inválido.";
+        emailError.style.color = "red";
         emailError.style.display = "block";
         isValid = false;
     }
+
+          // Validar senha
+      if (password.length < 6) {
+          passwordError.textContent = "A senha deve ter pelo menos 6 caracteres.";
+          passwordError.style.color = "red";
+          passwordError.style.display = "block";
+          isValid = false;
+      }
       
       //exebir mensagens de sucesso ou error
       if (isValid) {
